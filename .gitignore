@@ -1,0 +1,40 @@
+﻿# .NET build output
+**/bin/
+**/obj/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local settings and secrets
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/secrets.json
+**/secrets.*.json
+.env
+.env.*
+!.env.example
+
+# IDE and operating-system files
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.backup_*
+*.bak_*
+*.backup.txt
+
+# Logs
+*.log
+
+# Additional backup files
+*.backup.*
+*.bak.*
+
+# Keep local application configuration private
+/backend/SmallBizERP.API/appsettings.json

@@ -1,0 +1,6 @@
+@SmallBizERP.API_HostAddress = http://localhost:5149
+
+GET {{SmallBizERP.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
